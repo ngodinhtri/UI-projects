@@ -30,6 +30,10 @@ span:nth-child(4) {
   animation-delay: 2s;
 }
 
+.particle:nth-child(2n) {
+  filter: blur(3px);
+}
+
 @keyframes blink {
   0% {
     opacity: 0;
