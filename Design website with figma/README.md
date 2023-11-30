@@ -12,3 +12,7 @@
 ## Technologies
 
 - `HTML`, `Tailwind`
+
+## Preview
+
+![Preview](./assets/image/Demo.png)
