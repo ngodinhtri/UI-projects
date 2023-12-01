@@ -1,0 +1,46 @@
+:root {
+  --bg-color: #232946;
+  --second-color: rgba(181, 190, 237);
+  --highlight-color: #eebbc3;
+
+  --w-h: 80px;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--bg-color);
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--second-color);
+}
+
+.menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--w-h);
+  height: var(--w-h);
+  font-size: 32px;
+  transition: background-color 0.5s linear;
+  z-index: 999;
+}
+
+.active {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: var(--w-h);
+  height: var(--w-h);
+  background-color: var(--highlight-color);
+}
