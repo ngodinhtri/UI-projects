@@ -32,7 +32,6 @@
   width: var(--w-h);
   height: var(--w-h);
   font-size: 32px;
-  transition: background-color 0.5s linear;
   z-index: 999;
 }
 
@@ -43,4 +42,5 @@
   width: var(--w-h);
   height: var(--w-h);
   background-color: var(--highlight-color);
+  transition: left 0.3s linear;
 }
