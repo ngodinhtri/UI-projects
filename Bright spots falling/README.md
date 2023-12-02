@@ -2,7 +2,7 @@ Bright Spots Falling 🔆
 
 ---
 
-- Create coll falling animation
+- Create cool falling animation
 
 ## References
 
